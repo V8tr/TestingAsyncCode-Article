@@ -24,11 +24,13 @@ class MusicServiceTests: XCTestCase {
 
     func testNextPageIsShown() {
         let navController = UINavigationController()
+        let targetViewController = UIViewController()
+        
         let sut = PagingViewController(navController: navController)
         
-        sut.showNextPage(UIViewController())
+        sut.showNextPage(targetViewController)
         
-        XCTAssertEqual(navController.viewControllers.count, 2)
+        XCTAssertEqual(navController.viewControllers.count, 1)
     }
 }
 
@@ -42,5 +44,11 @@ class PagingViewController {
     
     func showNextPage(_ nextPage: UIViewController) {
         navController.pushViewController(nextPage, animated: true)
+    }
+}
+
+class NonAnimatableNavController: UINavigationController {
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        super.pushViewController(viewController, animated: false)
     }
 }

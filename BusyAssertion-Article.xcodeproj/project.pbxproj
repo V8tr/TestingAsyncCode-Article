@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8017AFC922EF436900769918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFC822EF436900769918 /* AppDelegate.swift */; };
-		8017AFCE22EF436900769918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8017AFCC22EF436900769918 /* Main.storyboard */; };
 		8017AFD022EF436B00769918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8017AFCF22EF436B00769918 /* Assets.xcassets */; };
-		8017AFD322EF436B00769918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8017AFD122EF436B00769918 /* LaunchScreen.storyboard */; };
-		8017AFEA22EF43AA00769918 /* ImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFE922EF43AA00769918 /* ImageConverter.swift */; };
 		8017AFEC22EF44A700769918 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFEB22EF44A700769918 /* MusicService.swift */; };
 		8017AFEE22EF48CE00769918 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFED22EF48CE00769918 /* Track.swift */; };
 		8017AFF022EF4A9800769918 /* MusicServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFEF22EF4A9800769918 /* MusicServiceTests.swift */; };
@@ -30,13 +27,10 @@
 /* Begin PBXFileReference section */
 		8017AFC522EF436900769918 /* BusyAssertion-Article.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusyAssertion-Article.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8017AFC822EF436900769918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8017AFCD22EF436900769918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8017AFCF22EF436B00769918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8017AFD222EF436B00769918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8017AFD422EF436B00769918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8017AFD922EF436B00769918 /* BusyAssertion-ArticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BusyAssertion-ArticleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8017AFDF22EF436B00769918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8017AFE922EF43AA00769918 /* ImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConverter.swift; sourceTree = "<group>"; };
 		8017AFEB22EF44A700769918 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
 		8017AFED22EF48CE00769918 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		8017AFEF22EF4A9800769918 /* MusicServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicServiceTests.swift; sourceTree = "<group>"; };
@@ -82,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				8017AFC822EF436900769918 /* AppDelegate.swift */,
-				8017AFE922EF43AA00769918 /* ImageConverter.swift */,
 				8017AFEB22EF44A700769918 /* MusicService.swift */,
 				8017AFED22EF48CE00769918 /* Track.swift */,
 				8017AFE822EF437900769918 /* Supporting Files */,
@@ -103,9 +96,7 @@
 		8017AFE822EF437900769918 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8017AFCC22EF436900769918 /* Main.storyboard */,
 				8017AFCF22EF436B00769918 /* Assets.xcassets */,
-				8017AFD122EF436B00769918 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -191,9 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8017AFD322EF436B00769918 /* LaunchScreen.storyboard in Resources */,
 				8017AFD022EF436B00769918 /* Assets.xcassets in Resources */,
-				8017AFCE22EF436900769918 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8017AFEA22EF43AA00769918 /* ImageConverter.swift in Sources */,
 				8017AFEC22EF44A700769918 /* MusicService.swift in Sources */,
 				8017AFC922EF436900769918 /* AppDelegate.swift in Sources */,
 				8017AFEE22EF48CE00769918 /* Track.swift in Sources */,
@@ -235,25 +223,6 @@
 			targetProxy = 8017AFDA22EF436B00769918 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8017AFCC22EF436900769918 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8017AFCD22EF436900769918 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8017AFD122EF436B00769918 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8017AFD222EF436B00769918 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8017AFE022EF436B00769918 /* Debug */ = {
