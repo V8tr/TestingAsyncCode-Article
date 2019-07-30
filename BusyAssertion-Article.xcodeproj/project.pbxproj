@@ -12,6 +12,11 @@
 		8017AFEC22EF44A700769918 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFEB22EF44A700769918 /* MusicService.swift */; };
 		8017AFEE22EF48CE00769918 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFED22EF48CE00769918 /* Track.swift */; };
 		8017AFF022EF4A9800769918 /* MusicServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFEF22EF4A9800769918 /* MusicServiceTests.swift */; };
+		8017AFF222F02F0500769918 /* AppRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFF122F02F0500769918 /* AppRouterTests.swift */; };
+		8017AFF422F02F1F00769918 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017AFF322F02F1F00769918 /* AppRouter.swift */; };
+		8017B00B22F064FB00769918 /* NonAnimatableNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017B00A22F064FB00769918 /* NonAnimatableNavController.swift */; };
+		8017B00D22F090E200769918 /* ImageCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017B00C22F090E200769918 /* ImageCompressor.swift */; };
+		8017B00F22F0919C00769918 /* ImageCompressorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8017B00E22F0919C00769918 /* ImageCompressorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		8017AFEB22EF44A700769918 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
 		8017AFED22EF48CE00769918 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		8017AFEF22EF4A9800769918 /* MusicServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicServiceTests.swift; sourceTree = "<group>"; };
+		8017AFF122F02F0500769918 /* AppRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterTests.swift; sourceTree = "<group>"; };
+		8017AFF322F02F1F00769918 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		8017B00A22F064FB00769918 /* NonAnimatableNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonAnimatableNavController.swift; sourceTree = "<group>"; };
+		8017B00C22F090E200769918 /* ImageCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompressor.swift; sourceTree = "<group>"; };
+		8017B00E22F0919C00769918 /* ImageCompressorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompressorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 			children = (
 				8017AFC822EF436900769918 /* AppDelegate.swift */,
 				8017AFEB22EF44A700769918 /* MusicService.swift */,
+				8017AFF322F02F1F00769918 /* AppRouter.swift */,
+				8017B00C22F090E200769918 /* ImageCompressor.swift */,
 				8017AFED22EF48CE00769918 /* Track.swift */,
 				8017AFE822EF437900769918 /* Supporting Files */,
 				8017AFD422EF436B00769918 /* Info.plist */,
@@ -88,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				8017AFEF22EF4A9800769918 /* MusicServiceTests.swift */,
+				8017AFF122F02F0500769918 /* AppRouterTests.swift */,
+				8017B00A22F064FB00769918 /* NonAnimatableNavController.swift */,
+				8017B00E22F0919C00769918 /* ImageCompressorTests.swift */,
 				8017AFDF22EF436B00769918 /* Info.plist */,
 			);
 			path = "BusyAssertion-ArticleTests";
@@ -202,6 +217,8 @@
 			files = (
 				8017AFEC22EF44A700769918 /* MusicService.swift in Sources */,
 				8017AFC922EF436900769918 /* AppDelegate.swift in Sources */,
+				8017AFF422F02F1F00769918 /* AppRouter.swift in Sources */,
+				8017B00D22F090E200769918 /* ImageCompressor.swift in Sources */,
 				8017AFEE22EF48CE00769918 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8017B00F22F0919C00769918 /* ImageCompressorTests.swift in Sources */,
+				8017B00B22F064FB00769918 /* NonAnimatableNavController.swift in Sources */,
+				8017AFF222F02F0500769918 /* AppRouterTests.swift in Sources */,
 				8017AFF022EF4A9800769918 /* MusicServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

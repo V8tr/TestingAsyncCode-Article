@@ -11,44 +11,19 @@ import XCTest
 
 class MusicServiceTests: XCTestCase {
 
-    func testSearch() {
-        let sut = MusicService()
-        
+    func testSearchUsingSignaling() {
+        let didFinish = self.expectation(description: #function)
         var result: Result<[Track], Error>?
+        
+        let sut = MusicService()
+
         sut.search("Rock") {
             result = $0
+            didFinish.fulfill()
         }
         
-//        expectation(description: <#T##String#>)
-    }
-
-    func testNextPageIsShown() {
-        let navController = UINavigationController()
-        let targetViewController = UIViewController()
+        wait(for: [didFinish], timeout: 5)
         
-        let sut = PagingViewController(navController: navController)
-        
-        sut.showNextPage(targetViewController)
-        
-        XCTAssertEqual(navController.viewControllers.count, 1)
-    }
-}
-
-
-class PagingViewController {
-    let navController: UINavigationController
-    
-    init(navController: UINavigationController) {
-        self.navController = navController
-    }
-    
-    func showNextPage(_ nextPage: UIViewController) {
-        navController.pushViewController(nextPage, animated: true)
-    }
-}
-
-class NonAnimatableNavController: UINavigationController {
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
-        super.pushViewController(viewController, animated: false)
+        XCTAssertNoThrow(try result?.get())
     }
 }
