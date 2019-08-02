@@ -1,13 +1,13 @@
 //
 //  FileSystemWriterTests.swift
-//  BusyAssertion-ArticleTests
+//  AsyncUnitTestingInSwift-ArticleTests
 //
 //  Created by Vadym Bulavin on 7/30/19.
 //  Copyright © 2019 Vadym Bulavin. All rights reserved.
 //
 
 import XCTest
-@testable import BusyAssertion_Article
+@testable import AsyncUnitTestingInSwift_Article
 
 class FileSystemWriterTests: XCTestCase {
 

@@ -32,11 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8017AFC522EF436900769918 /* BusyAssertion-Article.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusyAssertion-Article.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8017AFC522EF436900769918 /* AsyncUnitTestingInSwift-Article.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsyncUnitTestingInSwift-Article.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8017AFC822EF436900769918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8017AFCF22EF436B00769918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8017AFD422EF436B00769918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8017AFD922EF436B00769918 /* BusyAssertion-ArticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BusyAssertion-ArticleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8017AFD922EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncUnitTestingInSwift-ArticleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8017AFDF22EF436B00769918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8017AFEB22EF44A700769918 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
 		8017AFED22EF48CE00769918 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 		8017AFBC22EF436900769918 = {
 			isa = PBXGroup;
 			children = (
-				8017AFC722EF436900769918 /* BusyAssertion-Article */,
-				8017AFDC22EF436B00769918 /* BusyAssertion-ArticleTests */,
+				8017AFC722EF436900769918 /* AsyncUnitTestingInSwift-Article */,
+				8017AFDC22EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests */,
 				8017AFC622EF436900769918 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,13 +80,13 @@
 		8017AFC622EF436900769918 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8017AFC522EF436900769918 /* BusyAssertion-Article.app */,
-				8017AFD922EF436B00769918 /* BusyAssertion-ArticleTests.xctest */,
+				8017AFC522EF436900769918 /* AsyncUnitTestingInSwift-Article.app */,
+				8017AFD922EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8017AFC722EF436900769918 /* BusyAssertion-Article */ = {
+		8017AFC722EF436900769918 /* AsyncUnitTestingInSwift-Article */ = {
 			isa = PBXGroup;
 			children = (
 				8017AFC822EF436900769918 /* AppDelegate.swift */,
@@ -98,10 +98,10 @@
 				8017AFE822EF437900769918 /* Supporting Files */,
 				8017AFD422EF436B00769918 /* Info.plist */,
 			);
-			path = "BusyAssertion-Article";
+			path = "AsyncUnitTestingInSwift-Article";
 			sourceTree = "<group>";
 		};
-		8017AFDC22EF436B00769918 /* BusyAssertion-ArticleTests */ = {
+		8017AFDC22EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests */ = {
 			isa = PBXGroup;
 			children = (
 				8017AFEF22EF4A9800769918 /* MusicServiceTests.swift */,
@@ -111,7 +111,7 @@
 				8017B01222F099D600769918 /* FileSystemWriterTests.swift */,
 				8017AFDF22EF436B00769918 /* Info.plist */,
 			);
-			path = "BusyAssertion-ArticleTests";
+			path = "AsyncUnitTestingInSwift-ArticleTests";
 			sourceTree = "<group>";
 		};
 		8017AFE822EF437900769918 /* Supporting Files */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8017AFC422EF436900769918 /* BusyAssertion-Article */ = {
+		8017AFC422EF436900769918 /* AsyncUnitTestingInSwift-Article */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8017AFE222EF436B00769918 /* Build configuration list for PBXNativeTarget "BusyAssertion-Article" */;
+			buildConfigurationList = 8017AFE222EF436B00769918 /* Build configuration list for PBXNativeTarget "AsyncUnitTestingInSwift-Article" */;
 			buildPhases = (
 				8017AFC122EF436900769918 /* Sources */,
 				8017AFC222EF436900769918 /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = "BusyAssertion-Article";
+			name = "AsyncUnitTestingInSwift-Article";
 			productName = "BusyAssertion-Article";
-			productReference = 8017AFC522EF436900769918 /* BusyAssertion-Article.app */;
+			productReference = 8017AFC522EF436900769918 /* AsyncUnitTestingInSwift-Article.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8017AFD822EF436B00769918 /* BusyAssertion-ArticleTests */ = {
+		8017AFD822EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8017AFE522EF436B00769918 /* Build configuration list for PBXNativeTarget "BusyAssertion-ArticleTests" */;
+			buildConfigurationList = 8017AFE522EF436B00769918 /* Build configuration list for PBXNativeTarget "AsyncUnitTestingInSwift-ArticleTests" */;
 			buildPhases = (
 				8017AFD522EF436B00769918 /* Sources */,
 				8017AFD622EF436B00769918 /* Frameworks */,
@@ -155,9 +155,9 @@
 			dependencies = (
 				8017AFDB22EF436B00769918 /* PBXTargetDependency */,
 			);
-			name = "BusyAssertion-ArticleTests";
+			name = "AsyncUnitTestingInSwift-ArticleTests";
 			productName = "BusyAssertion-ArticleTests";
-			productReference = 8017AFD922EF436B00769918 /* BusyAssertion-ArticleTests.xctest */;
+			productReference = 8017AFD922EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8017AFC022EF436900769918 /* Build configuration list for PBXProject "BusyAssertion-Article" */;
+			buildConfigurationList = 8017AFC022EF436900769918 /* Build configuration list for PBXProject "AsyncUnitTestingInSwift-Article" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8017AFC422EF436900769918 /* BusyAssertion-Article */,
-				8017AFD822EF436B00769918 /* BusyAssertion-ArticleTests */,
+				8017AFC422EF436900769918 /* AsyncUnitTestingInSwift-Article */,
+				8017AFD822EF436B00769918 /* AsyncUnitTestingInSwift-ArticleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		8017AFDB22EF436B00769918 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8017AFC422EF436900769918 /* BusyAssertion-Article */;
+			target = 8017AFC422EF436900769918 /* AsyncUnitTestingInSwift-Article */;
 			targetProxy = 8017AFDA22EF436B00769918 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,12 +374,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BusyAssertion-Article/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AsyncUnitTestingInSwift-Article/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.BusyAssertion-Article";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.AsyncUnitTestingInSwift-Article";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,12 +391,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BusyAssertion-Article/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AsyncUnitTestingInSwift-Article/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.BusyAssertion-Article";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.AsyncUnitTestingInSwift-Article";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -409,17 +409,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BusyAssertion-ArticleTests/Info.plist";
+				INFOPLIST_FILE = "AsyncUnitTestingInSwift-ArticleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.BusyAssertion-ArticleTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.AsyncUnitTestingInSwift-ArticleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusyAssertion-Article.app/BusyAssertion-Article";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncUnitTestingInSwift-Article.app/AsyncUnitTestingInSwift-Article";
 			};
 			name = Debug;
 		};
@@ -429,24 +429,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BusyAssertion-ArticleTests/Info.plist";
+				INFOPLIST_FILE = "AsyncUnitTestingInSwift-ArticleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.BusyAssertion-ArticleTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v8tr.AsyncUnitTestingInSwift-ArticleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusyAssertion-Article.app/BusyAssertion-Article";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncUnitTestingInSwift-Article.app/AsyncUnitTestingInSwift-Article";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8017AFC022EF436900769918 /* Build configuration list for PBXProject "BusyAssertion-Article" */ = {
+		8017AFC022EF436900769918 /* Build configuration list for PBXProject "AsyncUnitTestingInSwift-Article" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8017AFE022EF436B00769918 /* Debug */,
@@ -455,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8017AFE222EF436B00769918 /* Build configuration list for PBXNativeTarget "BusyAssertion-Article" */ = {
+		8017AFE222EF436B00769918 /* Build configuration list for PBXNativeTarget "AsyncUnitTestingInSwift-Article" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8017AFE322EF436B00769918 /* Debug */,
@@ -464,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8017AFE522EF436B00769918 /* Build configuration list for PBXNativeTarget "BusyAssertion-ArticleTests" */ = {
+		8017AFE522EF436B00769918 /* Build configuration list for PBXNativeTarget "AsyncUnitTestingInSwift-ArticleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8017AFE622EF436B00769918 /* Debug */,

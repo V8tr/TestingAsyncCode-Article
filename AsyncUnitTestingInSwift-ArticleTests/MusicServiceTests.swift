@@ -1,18 +1,18 @@
 //
 //  MusicServiceTests.swift
-//  BusyAssertion-ArticleTests
+//  AsyncUnitTestingInSwift-ArticleTests
 //
 //  Created by Vadym Bulavin on 7/29/19.
 //  Copyright © 2019 Vadym Bulavin. All rights reserved.
 //
 
 import XCTest
-@testable import BusyAssertion_Article
+@testable import AsyncUnitTestingInSwift_Article
 
 class MusicServiceTests: XCTestCase {
 
     func testSearchUsingSignaling() {
-        let didFinish = self.expectation(description: #function)
+        let didFinish = expectation(description: #function)
         var result: Result<[Track], Error>?
         
         let sut = MusicService()
